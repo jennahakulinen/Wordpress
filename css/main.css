@@ -105,7 +105,7 @@ footer {
     border-bottom: #CCC solid 1px;
 }
 
-.current-menu-item > a, .current-page-ancestor > a, .current-post-ancestor > a {
+.current-menu-item > a {
     font-weight: bold;
     color: #FF5A43;
 }
@@ -113,6 +113,10 @@ footer {
 .sub-menu {
     display: none;
     font-size: 0.7em;
+}
+
+.current-menu-parent .sub-menu {
+    display: block;
 }
 
 .sub-menu a {
@@ -123,7 +127,7 @@ footer {
     border-bottom: none;
 }
 
-.current-menu-item > ul, .current-page-ancestor > ul, .current-post-ancestor > ul {
+.current-menu-item > ul {
     display: block;
 }
 
